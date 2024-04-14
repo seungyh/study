@@ -1,0 +1,13 @@
+
+server:
+  port: 8080
+
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.OracleDriver
+    url: jdbc:oracle:thin:@192.168.219.104:1521:xe
+    username: system
+    password: psy990512!
+  sql:
+    init:
+      continue-on-error: true
